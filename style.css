@@ -1,0 +1,145 @@
+.header {
+    padding: 0px; /* some padding */
+    text-align: center; /* center the text */
+    background: #636060; /* green background */
+    color: rgb(255, 255, 255); /* white text color */
+    width: 100%;
+    border: 5px solid rgb(0, 0, 0);
+    padding: 10px;
+    margin: 0px;
+  }
+  
+  /* Increase the font size of the <h1> element */
+  .header h1 {
+    font-size: 80px;
+  }
+  .main h5 {
+    font-size: 25px;
+  }
+  .main h2 {
+    font-size: 30px;
+  }
+
+
+  /* Style the top navigation bar */
+.navbar {
+    overflow: hidden; /* Hide overflow */
+    background-color: #333; /* Dark background color */
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+  
+  /* Style the navigation bar links */
+  .navbar a {
+    float: left; /* Make sure that the links stay side-by-side */
+    display: block; /* Change the display to block, for responsive reasons (see below) */
+    color: white; /* White text color */
+    text-align: center; /* Center the text */
+    padding: 14px 20px; /* Add some padding */
+    text-decoration: none; /* Remove underline */
+    column-width: 200px;
+}
+  
+  /* Right-aligned link */
+  .navbar a.right {
+    float: right; /* Float a link to the right */
+  }
+  
+  /* Change color on hover/mouse-over */
+  .navbar a:hover {
+    background-color: #ddd; /* Grey background color */
+    color: black; /* Black text color */
+  }
+
+  /* Ensure proper sizing */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Column container */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+  .side {
+    flex: 20%; /* Set the width of the sidebar */
+    background-color: #f1f1f1; /* Grey background color */
+    padding: 10px; /* Some padding */
+  
+    }
+
+
+  
+  /* Main column */
+  .main {
+    flex: 70%; /* Set the width of the main content */
+    background-color: white; /* White background color */
+    padding: 20px; /* Some padding */
+  }
+  h2 {
+    text-align: center;
+    font-size: 20px;
+
+  }
+  h3 {
+    text-align: center;
+    font-size: 20px;
+  }
+  .side {
+    text-align: center;
+  }
+
+.wrap {
+	background: #3E3E3E;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+
+.footer {
+    
+    background: #3E3E3E;
+    width: 100%;
+    height:13em;
+    color: #fff;
+    box-shadow: 0 -2px 5px #888;
+    
+    font-size: 1em;
+    line-height: 1.2em;
+    
+    display: flex;
+    flex-direction: row;  
+    font-size: .8em;
+    justify-content: space-around;
+}
+
+.img {
+    text-align: center;
+}
+
+.text {
+    text-align: center;
+}
+
+.morning {
+ background-image: url("https://images.unsplash.com/photo-1614687345016-9183348d8f35?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c3VucmlzZSUyMHNreXxlbnwwfHwwfHw%3D&w=1000&q=80");
+ background-color: #ffffff;
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.morning-text {
+    color: rgb(255, 255, 255);
+    text-size-adjust: 10px;
+    text-align: center;
+
+}
+
+html {scroll-behavior: smooth;}
